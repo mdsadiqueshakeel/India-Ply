@@ -4,6 +4,7 @@ import RightImage from './RightImage';
 import Founder from './Founder';
 import ProductsDeal from './ProductsDeal';
 import Vision from './Vision';
+import './AboutPage.css';
 
 
 

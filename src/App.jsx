@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Navbar from './landing_pages/Navbar'
 import Footer from './landing_pages/Footer';
@@ -11,9 +11,16 @@ import Products from './landing_pages/Products/ProductsPage';
 import OurBrands from './landing_pages/OurBrands/OurBrandsPage';
 import PVCPanel from './landing_pages/PVC_Panel/PvcPanelPage';
 import Decoratives from './landing_pages/Decoratives/DecorativesPage';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+
 
 
 const App = () => {
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
   return (
     <>
       <Navbar />
