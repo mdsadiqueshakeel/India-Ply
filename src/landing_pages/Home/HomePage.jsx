@@ -4,14 +4,17 @@ import LeftImage from './LeftImage';
 import RightImage from './RightImage';
 import HappyClients from './HappyClinets';
 import Partners from './Partners';
+import AnotherLeftImage from './AnotherLeftImage';
+import OurGallery from './OurGallery';
 
 function HomePage() {
     return ( <>
         <Hero/>
         <RightImage/>
         <LeftImage/>
-        <LeftImage/>
-        <HappyClients/>
+        <AnotherLeftImage/>  
+        <OurGallery/> 
+    <HappyClients/>
         <Partners/>
     </> );
 }

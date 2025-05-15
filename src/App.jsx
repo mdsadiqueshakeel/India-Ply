@@ -3,6 +3,7 @@ import { Routes, Route } from 'react-router-dom';
 import Navbar from './landing_pages/Navbar'
 import Footer from './landing_pages/Footer';
 import NotFound from './landing_pages/NotFound';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Home from './landing_pages/Home/HomePage';
 import About from './landing_pages/About/AboutPage';
