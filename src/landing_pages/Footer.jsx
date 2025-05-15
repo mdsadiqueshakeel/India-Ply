@@ -10,16 +10,16 @@ import "./Footer.css"; // Custom styles
               {/* Left Section: Logo, Address, and Contact */}
               <div className="col-md-5 mb-4">
                 <div className="mb-3">
-                  <h2 className="h4">Bajrang Ply</h2>
+                  <h2 className="h4">India Ply</h2>
                 </div>
                 <p className="small mb-2">
-                  586, Bara Birwa, <br />
-                  Near Hotel Piccadily, Kanpur Road, <br />
-                  Lucknow, Uttar Pradesh, <br />
-                  India 226012
+                   PG Rd, opposite Sadar Hospital,<br />
+                   Jehanabad, Bihar 804408<br />
+                  
+                  
                 </p>
                 <p className="small mb-2">
-                  <strong>Office:</strong> +91 9118881560, 0522-4046608, +91 9793638899
+                  <strong>Office:</strong> +91 8271167719
                 </p>
                 <p className="small mb-2">
                   <strong>Anmol Agarwal (Director):</strong> +91 9795530227
@@ -58,12 +58,11 @@ import "./Footer.css"; // Custom styles
           {/* Bottom Copyright Section */}
           <div className="footer-bottom">
             <p className="mb-0">
-              © COPYRIGHT {new Date().getFullYear()} | ALL RIGHTS RESERVED | <span className="text-orange">BAJRANG PLY</span> DESIGNED BY <span className="text-orange">DIGITAL JUGGLERS</span>
+              © COPYRIGHT {new Date().getFullYear()} | ALL RIGHTS RESERVED | <span className="text-orange">INDIA PLY</span> DESIGNED BY <span className="text-orange">ALPHA MEDIA</span>
             </p>
           </div>
 
-          {/* Enquire Now Button */}
-          <div className="enquire-now-btn">Enquire Now</div>
+   
 
           {/* WhatsApp Floating Icon */}
           <a href="https://wa.me/919799999999" target="_blank" rel="noopener noreferrer" className="whatsapp-float">

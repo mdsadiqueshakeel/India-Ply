@@ -1,43 +1,67 @@
 import React from 'react';
+import './navbar.css';
 import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
-      <div className="container-fluid">
-        <Link className="navbar-brand" to="/">India Ply</Link>
-        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-          <span className="navbar-toggler-icon"></span>
-        </button>
-        <div className="collapse navbar-collapse" id="navbarNav">
-          <ul className="navbar-nav ms-auto">
-            <li className="nav-item">
-              <Link className="nav-link" to="/">Home</Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/about">About</Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/products">Products</Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/decoratives">Decoratives</Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/pvc-panel">PVC Panel</Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/our-brands">Our Brands</Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/gallery">Gallery</Link>
-            </li>
-          </ul>
+    <div className="navbar-container">
+      {/* Top Bar with Logo, Call Us, and Social Icons */}
+      <div className="top-bar">
+        <div className="container">
+          <div className="top-bar-content">
+            {/* Logo */}
+            <div className="logo">
+              <div className="logo-text">
+                <div className="brand-name">India</div>
+                <div className="tagline">PLY</div>
+                <div className="sub-text">Aber Tom Giot Papavol</div>
+              </div>
+            </div>
+            
+            {/* Call Us and Social Icons */}
+            <div className="contact-section">
+              <div className="call-us">
+                <span>Call Us</span>
+                <span className="phone-number">+91 8271167719</span>
+              </div>
+              <div className="social-icons">
+                <a href="#" className="social-icon" aria-label="Facebook">
+                  <i className="fab fa-facebook-f"></i>
+                </a>
+                <a href="#" className="social-icon" aria-label="Instagram">
+                  <i className="fab fa-instagram"></i>
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </nav>
-
     
+      {/* Main Navigation */}
+      <nav className="main-nav navbar navbar-expand-lg">
+        <div className="container">
+          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span className="navbar-toggler-icon"></span>
+          </button>
+          
+          <div className="collapse navbar-collapse" id="navbarNav">
+            <ul className="navbar-nav">
+              {['HOME', 'ABOUT US', 'PRODUCTS', 'DECORATIVES', 'PVC PANEL', 'OUR BRANDS', 'GALLERY', 'CONTACT US'].map((item) => (
+                <li className="nav-item" key={item}>
+                  <Link 
+                    className="nav-link" 
+                    to={`/${item.toLowerCase().replace(' ', '-')}`}
+                  >
+                    {item}
+                    <span className="nav-hover-effect"></span>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
   );
 };
 
