@@ -1,0 +1,40 @@
+.footer-container {
+  background-color: #5b3b29; /* Brown */
+  color: #fff;
+  position: relative;
+}
+
+.footer-container a {
+  color: #fff;
+  margin-right: 15px;
+  font-size: 20px;
+}
+
+.footer-bottom {
+  background-color: #40291c;
+}
+
+.enquire-now-btn {
+  position: fixed;
+  top: 50%;
+  right: 0;
+  background: #a85b2b;
+  color: #fff;
+  padding: 10px 15px;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  font-weight: bold;
+  cursor: pointer;
+  z-index: 999;
+}
+
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25D366;
+  color: white;
+  border-radius: 50%;
+  padding: 15px;
+  z-index: 999;
+}
