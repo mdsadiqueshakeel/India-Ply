@@ -20,7 +20,7 @@ const App = () => {
       <div className="main-content" style={{ minHeight: '80vh' }}>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
+          <Route path="/about-us" element={<About />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/products" element={<Products />} />
           <Route path="/our-brands" element={<OurBrands />} />

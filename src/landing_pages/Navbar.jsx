@@ -1,5 +1,4 @@
 import React from 'react';
-import './navbar.css';
 import { Link } from 'react-router-dom';
 
 const Navbar = () => {
@@ -46,11 +45,12 @@ const Navbar = () => {
           
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav">
-              {['HOME', 'ABOUT US', 'PRODUCTS', 'DECORATIVES', 'PVC PANEL', 'OUR BRANDS', 'GALLERY', 'CONTACT US'].map((item) => (
+              {['HOME', 'ABOUT US', 'PRODUCTS', 'DECORATIVES', 'PVC PANEL', 'OUR BRANDS', 'GALLERY', ].map((item) => (
                 <li className="nav-item" key={item}>
                   <Link 
+
                     className="nav-link" 
-                    to={`/${item.toLowerCase().replace(' ', '-')}`}
+                    to={item === 'HOME' ? '/' : `/${item.toLowerCase().replace(/\s+/g, '-')}`}
                   >
                     {item}
                     <span className="nav-hover-effect"></span>
