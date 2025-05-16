@@ -9,6 +9,7 @@ import Laminates from './Laminates';
 import DecoratoveProducts from './DecorativeProducts';
 import Veener from './Veener';
 import Tape from './Tape';
+import GLImages from './GlImages';
 
 function ProductPage() {
     return ( <>
@@ -18,6 +19,7 @@ function ProductPage() {
     <Plywood/>
     <HardWare/>
     <HDHMR/>
+    <GLImages/>
     <Locks/>
     <DecorativeHandles/>
     <Laminates/>
