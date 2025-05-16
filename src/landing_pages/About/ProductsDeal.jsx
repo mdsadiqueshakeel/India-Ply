@@ -1,14 +1,20 @@
-import React, { useEffect } from 'react';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 const Products = () => {
-  useEffect(() => {
-    AOS.init({ duration: 1000 });
-  }, []);
-
+ useEffect(() => {
+  AOS.init({ duration: 1000, once: true });
+  AOS.refresh();
+}, []);
   const products = [
-    'PLYWOOD', 'BLOCK BOARDS', 'LAMINATES', 'VENEERS',
-    'W.P.C / PVC', 'LOCKS', 'HDHMR BOARD', 'DECORATIVE PRODUCTS',
+    "PLYWOOD",
+    "BLOCK BOARDS",
+    "LAMINATES",
+    "VENEERS",
+    "W.P.C / PVC",
+    "LOCKS",
+    "HDHMR BOARD",
+    "DECORATIVE PRODUCTS",
   ];
 
   return (
@@ -18,7 +24,8 @@ const Products = () => {
           <div className="col-md-4 mb-4 mb-md-0">
             <h3 className="section-heading">PRODUCTS WE DEAL IN</h3>
             <p className="section-description">
-              We deal in most prominent, refined and innovative range of products across numerous categories:
+              We deal in most prominent, refined and innovative range of
+              products across numerous categories:
             </p>
           </div>
           <div className="col-md-8">
@@ -37,6 +44,5 @@ const Products = () => {
     </section>
   );
 };
-
 
 export default Products;

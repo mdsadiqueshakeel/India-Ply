@@ -1434,3 +1434,15 @@
         margin: 0 10px;
     }
 }
+
+.learn-more-link {
+  color: #8B4513;
+  text-decoration: none;
+  transition: font-size 0.3s ease;
+  padding-left: 2rem;
+}
+
+.learn-more-link:hover {
+  color: #5a2e0c; /* a darker brown shade for hover */
+  font-size: 1.75rem;
+}

@@ -217,20 +217,28 @@
 }
 
 .product-item {
-  color: #000; /* Make text visible */
-  font-size: 1.1rem; /* Adjust font size if needed */
-  font-weight: 500;
-  display: block; /* Ensure it's not display: none */
-  opacity: 1; /* Ensure not 0 */
+  color: #000 ;
+  background: #fff ;
+  display: block ;
+  opacity: 1 !important;
   visibility: visible;
-  line-height: 1.4;
+  padding: 10px;
+  font-size: 1rem;
 }
 
-.product-item .dash {
-  color: #8b4513; /* Stylish brown dash */
-  margin-right: 6px;
+.product-item:hover {
+  background-color: #fff3e0; /* subtle orange on hover */
+  color: #8B4513; /* SaddleBrown */
+  transform: translateY(-2px);
+}
+
+.dash {
+  color: #8B4513;
+  margin-right: 8px;
   font-weight: bold;
 }
+
+
 
 .mission-vision-section {
   background-color: #fff;
