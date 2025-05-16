@@ -15,7 +15,7 @@ function Gallery() {
       });
     }, { threshold: 0.1 });
 
-    document.querySelectorAll('.gallery-item').forEach(el => {
+    document.querySelectorAll('.gallery-item, .section-title, .explore-btn').forEach(el => {
       observer.observe(el);
     });
 
@@ -60,14 +60,17 @@ function Gallery() {
 
   return (
     <section className="gallery-section py-5 bg-white">
-      <Container>
-        {/* Header Section */}
-        <div className="text-center mb-5">
-          <h2 className="text-uppercase font-weight-bold mb-3">OUR GALLERY</h2>
+      <Container className="d-flex flex-column align-items-center">
+        {/* Header Section with animation */}
+        <div className="text-center mb-5 section-title">
+          <h2 className="text-uppercase font-weight-bold mb-3 animate__animated">
+            OUR GALLERY
+          </h2>
+          <p className="animate__animated">Discover our collection of memorable moments</p>
         </div>
 
         {/* Gallery Grid */}
-        <Row className="gallery-grid justify-content-center">
+        <Row className="gallery-grid justify-content-center w-100">
           {images.map((img, index) => (
             <Col 
               key={index} 
@@ -98,12 +101,12 @@ function Gallery() {
           ))}
         </Row>
 
-        {/* Explore More Button */}
-        <div className="text-center mt-4">
+        {/* Explore More Button with animation */}
+        <div className="text-center mt-4 explore-btn-wrapper">
           <Button 
             variant="outline-dark" 
             size="lg" 
-            className="px-4 explore-btn"
+            className="px-4 explore-btn animate__animated"
           >
             EXPLORE MORE
           </Button>

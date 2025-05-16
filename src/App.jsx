@@ -1,19 +1,19 @@
-import React,{useEffect} from 'react';
-import { Routes, Route } from 'react-router-dom';
-import Navbar from './landing_pages/Navbar'
-import Footer from './landing_pages/Footer';
-import NotFound from './landing_pages/NotFound';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { useEffect } from 'react';
+import { Route, Routes } from 'react-router-dom';
+import Footer from './landing_pages/Footer';
+import Navbar from './landing_pages/Navbar';
+import NotFound from './landing_pages/NotFound';
 
-import Home from './landing_pages/Home/HomePage';
+import AOS from "aos";
+import "aos/dist/aos.css";
 import About from './landing_pages/About/AboutPage';
-import Gallery from './landing_pages/Gallery/GalleryPage';
-import Products from './landing_pages/Products/ProductsPage';
-import OurBrands from './landing_pages/OurBrands/OurBrandsPage';
-import PVCPanel from './landing_pages/PVC_Panel/PvcPanelPage';
 import Decoratives from './landing_pages/Decoratives/DecorativesPage';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import Gallery from './landing_pages/Gallery/GalleryPage';
+import Home from './landing_pages/Home/HomePage';
+import OurBrands from './landing_pages/OurBrands/OurBrandsPage';
+import Products from './landing_pages/Products/ProductsPage';
+import PVCPanel from './landing_pages/PVC_Panel/PvcPanelPage';
 
 
 
