@@ -66,7 +66,7 @@ const Navbar = () => {
                 <li className="nav-item" key={item}>
                   <Link 
                     className="nav-link" 
-                    to={`/${item.toLowerCase().replace(' ', '-')}`}
+                    to={item === 'HOME' ? '/' : `/${item.toLowerCase().replace(/\s+/g, '-')}`}
                   >
                     {item}
                     <span className="nav-hover-effect"></span>
