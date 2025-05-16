@@ -88,7 +88,6 @@ const Navbar = () => {
                 "PVC PANEL",
                 "OUR BRANDS",
                 "GALLERY",
-                "CONTACT US",
               ].map((item) => (
                 <li className="nav-item" key={item}>
                   <Link
