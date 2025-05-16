@@ -6,6 +6,7 @@ import HappyClients from './HappyClinets';
 import Partners from './Partners';
 import AnotherLeftImage from './AnotherLeftImage';
 import OurGallery from './OurGallery';
+import './HomePage.css';
 
 function HomePage() {
     return ( <>

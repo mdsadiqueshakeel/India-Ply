@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react';
-import './Hero.css';
 
 const Hero = () => {
   const slides = [

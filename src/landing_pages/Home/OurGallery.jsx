@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Container, Row, Col, Image, Button, Modal } from 'react-bootstrap';
 import { FaChevronLeft, FaChevronRight, FaTimes } from 'react-icons/fa';
-import './OurGallery.css';
 
 function Gallery() {
   const [showModal, setShowModal] = useState(false);

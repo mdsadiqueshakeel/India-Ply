@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-import './LeftImage.css';
 
 function Reasons() {
   useEffect(() => {

@@ -1,6 +1,5 @@
 import { useEffect } from 'react';
 import { Button, Col, Container, Image, ListGroup, Row } from 'react-bootstrap';
-import './AnotherLeftImage.css'; // We'll keep this minimal
 
 function Products() {
   useEffect(() => {
