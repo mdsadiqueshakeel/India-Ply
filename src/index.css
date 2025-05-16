@@ -1,5 +1,6 @@
 body {
   font-family: 'Poppins', sans-serif;
+  width: 100vw;
 }
 
 .shared-hero {
@@ -82,6 +83,35 @@ body {
 /* Navbar css */
 
 /* Navbar Styles */
+
+.right-section {
+  text-align: center;
+  color: #ffffff;
+}
+
+/* Call Us Section */
+.call-us-section .fw-semibold {
+  color: #8B4513; /* SaddleBrown */
+  font-size: 15px;
+}
+
+.call-us-section .phone-number {
+  font-weight: bold;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+/* Social Icons */
+.social-icons a {
+  color: #ffffff;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #ffa500; /* Optional hover color */
+}
+
 .navbar-container {
   font-family: 'Poppins', sans-serif;
   position: relative;
@@ -104,7 +134,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background: url('https://www.transparenttextures.com/patterns/wood-pattern.png');
+  background: url('public/media/images/wood-pattern.png');
   opacity: 0.1;
   pointer-events: none;
 }
@@ -396,53 +426,31 @@ body {
 
 /* Mobile Menu Styles */
 @media (max-width: 992px) {
-  .top-bar-content {
-    flex-direction: column;
-    gap: 15px;
-    padding: 15px 20px;
-  }
-  
-  .contact-section {
-    width: 100%;
-    justify-content: space-between;
-    flex-wrap: wrap;
-  }
-  
-  .call-us {
-    text-align: left;
-    margin-bottom: 10px;
-  }
-  
-  .navbar-nav {
-    flex-direction: column;
-    gap: 0;
-    padding: 0;
-  }
-  
-  .nav-link {
-    padding: 15px 20px !important;
-    width: 100%;
-  }
-  
-  .nav-link::before {
-    bottom: 10px;
-    left: 20px;
-  }
-  
-  .contact-button {
-    width: 100%;
-    text-align: center;
-    margin-top: 10px;
-  }
-  
   .dropdown-menu {
-    position: static !important;
+    position: end !important;
     transform: none !important;
     width: 100%;
     border: none;
     border-radius: 0;
   }
+
+  .logo-img {
+  display: none;
 }
+}.logo-img {
+  display: none;
+}
+
+@media (max-width: 650px) {
+  .logo-img {
+    display: block;
+    height: 80px;
+  }
+  .top-bar{
+    display: none;
+  }
+}
+
 
 
 /* Footer */
@@ -458,6 +466,10 @@ body {
 }
 
 
+.main-logo {
+    display: none;
+  }
+
 
 .footer-container::before {
   content: "";
@@ -466,7 +478,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background: url('https://www.transparenttextures.com/patterns/wood-pattern.png');
+  background: url('public/media/images/wood-pattern.png');
   opacity: 0.08;
   pointer-events: none;
   z-index: 0;
@@ -555,4 +567,10 @@ body {
   box-shadow: 0 12px 40px rgba(139, 69, 19, 0.4);
 }
 
+@media (max-width: 768px) {
+    .main-logo {
+    display: block;
+    height: 80px;
+  }
+}
 

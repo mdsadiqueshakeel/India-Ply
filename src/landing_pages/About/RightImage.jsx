@@ -18,22 +18,16 @@ function RightImage() {
               India Ply - Plywood Wholesale Dealers
             </h2>
             <p className="lead">
-              India Ply, based in Jehanabad, Bihar, was established in 2010 and
-              has quickly grown into one of the most trusted names in the
-              plywood and interior solutions sector. Founded by Mr. Ehtasham
-              Alam, the company is known for delivering superior quality and
-              exceptional customer service.
+            Founded in 2010 and headquartered in Jehanabad, Bihar, India Ply has grown into a leading name in the plywood and interior solutions industry. Under the visionary leadership of Mr. Ehtasham Alam, the company has built a reputation for delivering products that are not only high in quality but also aligned with the evolving needs of modern interiors.
             </p>
             <p className="lead">
-              Having completed 200+ projects and serving 500+ clients, India Ply
-              takes pride in delivering value that goes beyond just materials —
-              we provide lifestyle solutions that transform homes and
-              businesses.
+            At India Ply, we believe that we are not just supplying materials — we are crafting experiences. Our comprehensive range of plywood and interior solutions is designed to bring durability, elegance, and a touch of innovation to every space. Whether it's a residential home or a commercial establishment, our products help transform ordinary interiors into extraordinary environments.
             </p>
             <p className="lead">
-              Our offerings are known for being durable, elegant, and aligned
-              with the latest interior trends — helping us stand out as a top
-              choice in Bihar’s plywood market.
+            What sets us apart is our deep understanding of both traditional values and contemporary design trends. This allows us to offer solutions that are aesthetically pleasing, functionally superior, and built to last. Our team of skilled professionals ensures that every project is executed with precision and a customer-first approach.
+            </p>
+            <p className="lead">
+          Thanks to the trust and support of our clients, India Ply continues to be a top choice in Bihar’s competitive plywood market, setting benchmarks for quality, reliability, and innovation.
             </p>
           </div>
 

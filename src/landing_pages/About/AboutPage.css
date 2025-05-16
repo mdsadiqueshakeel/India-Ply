@@ -32,7 +32,7 @@
 
 /* Optional: Add quote icon using ::before */
 .founder-section p:first-of-type::before {
-  content: '“';
+  content: "“";
   font-size: 3rem;
   color: #ff9933;
   position: relative;
@@ -40,7 +40,6 @@
   left: -5px;
   margin-right: 6px;
 }
-
 
 /* RightImage Section */
 
@@ -80,7 +79,7 @@
   margin-bottom: 1rem;
 }
 .lead {
-  font-size: 1.1rem;
+  font-size: 1.25rem;
   line-height: 1.8;
   margin-bottom: 1rem;
 }
@@ -169,6 +168,10 @@
     padding-left: 10px;
     padding-right: 10px;
   }
+
+
+  
+
   .founder-section .bg-light-orange {
     padding: 1rem;
   }
@@ -214,17 +217,19 @@
 }
 
 .product-item {
-  font-weight: 600;
-  font-size: 1.05rem;
-  color: #4a2d0b;
-  display: flex;
-  align-items: center;
+  color: #000; /* Make text visible */
+  font-size: 1.1rem; /* Adjust font size if needed */
+  font-weight: 500;
+  display: block; /* Ensure it's not display: none */
+  opacity: 1; /* Ensure not 0 */
+  visibility: visible;
+  line-height: 1.4;
 }
 
 .product-item .dash {
-  margin-right: 10px;
-  color: #a35a1e;
-  font-size: 1.2rem;
+  color: #8b4513; /* Stylish brown dash */
+  margin-right: 6px;
+  font-weight: bold;
 }
 
 .mission-vision-section {

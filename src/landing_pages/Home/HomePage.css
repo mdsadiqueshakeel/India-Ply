@@ -623,3 +623,13 @@
 .next-btn {
   right: 15px;
 }
+
+.learn-more-link {
+  padding-left: 1rem;  color: #8B4513;
+  text-decoration: none;
+  transition: font-size 0.3s ease;
+}
+
+.learn-more-link:hover {
+  font-size: 1.75rem;
+}
