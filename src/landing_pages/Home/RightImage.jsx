@@ -43,15 +43,15 @@ function RightImage() {
           {/* Image Section with Overlap and Animation */}
           <div className="col-md-5 position-relative">
             <div className="image-wrapper enhanced-wrapper">
-              <div className="decorative-bg"></div>
+              <div className="decorative-bg "></div>
               <img
-                src="https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                src="media/images/R1.png"
                 alt="India Ply Store"
                 className="img-fluid main-img"
                 data-aos="fade-right"
               />
               <img
-                src="https://images.unsplash.com/photo-1631679706909-1844bbd07221?q=80&w=1992&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                src="media/images/R2.png"
                 alt="India Ply Interior"
                 className="img-fluid overlay-img"
                 data-aos="fade-left"

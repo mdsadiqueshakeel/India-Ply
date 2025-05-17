@@ -27,16 +27,11 @@ const Footer = () => {
               <p className="small mb-2">
                 <strong>Office:</strong> +91 8271167719
               </p>
+             
+
               <p className="small mb-2">
-                <strong>Anmol Agarwal (Director):</strong> +91 9795530227
+                <strong>info@indiaply.com</strong>
               </p>
-              <p className="small mb-2">
-                <strong>Manager:</strong> +91 9793628899
-              </p>
-              <p className="small mb-2">
-                <strong>info@bajrangply.com</strong>
-              </p>
-              <p className="small mb-2">bajrangplywood8@gmail.com</p>
               {/* Social Media Icons */}
               <div className="social-icons mt-3">
                 <a href="#">
@@ -88,7 +83,7 @@ const Footer = () => {
 
       {/* WhatsApp Floating Icon */}
       <a
-        href="https://wa.me/919799999999"
+        href="https://wa.me/918271167719"
         target="_blank"
         rel="noopener noreferrer"
         className="whatsapp-float"

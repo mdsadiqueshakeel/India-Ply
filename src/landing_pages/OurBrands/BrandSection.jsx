@@ -67,9 +67,9 @@ const BrandSection = ({ title, image, handles = [], items, reverse }) => {
                   <div key={index} className="mb-3">
                     <h6
                       style={{
-                        marginBottom: "5px",
-                        fontWeight: "500",
                         color: "#000",
+                        fontWeight: "500",
+                        marginBottom: "1.5rem",
                       }}
                     >
                       <i

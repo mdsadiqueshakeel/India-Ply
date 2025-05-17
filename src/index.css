@@ -1,8 +1,9 @@
-body {
+html,body {
   font-family: 'Poppins', sans-serif;
   width: 100vw;
-overflow-x: hidden;
-
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; 
 }
 
 .shared-hero {
@@ -136,7 +137,7 @@ overflow-x: hidden;
   left: 0;
   right: 0;
   bottom: 0;
-  background: url('public/media/images/wood-pattern.png');
+  background: url('media/images/wood-pattern.png');
   opacity: 0.1;
   pointer-events: none;
 }
@@ -480,7 +481,7 @@ overflow-x: hidden;
   left: 0;
   right: 0;
   bottom: 0;
-  background: url('public/media/images/wood-pattern.png');
+  background: url('media/images/wood-pattern.png');
   opacity: 0.08;
   pointer-events: none;
   z-index: 0;

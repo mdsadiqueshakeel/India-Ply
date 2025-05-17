@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { FaFacebookF, FaInstagram, FaWhatsapp } from "react-icons/fa";
+
 
 const Navbar = () => {
   return (
@@ -24,14 +26,12 @@ const Navbar = () => {
               >
                 <div className="brand-name">India</div>
                 <div className="tagline">PLY</div>
-                <div className="sub-text" style={{ fontSize: "10px" }}>
-                  Aber Tom Giot Papavol
-                </div>
+                
               </div>
             </div>
 
             {/* Right-aligned elements */}
-            <div className="right-section d-flex flex-column align-items-center gap-4">
+            <div className="right-section d-flex flex-column align-items-center gap-1">
               {/* Call Us */}
               <div className="text-center d-flex flex-column align-items-center call-us-section">
                 <span className="fw-semibold">Call Us</span>
@@ -39,12 +39,12 @@ const Navbar = () => {
               </div>
 
               {/* Social Icons */}
-              <div className="d-flex gap-3 social-icons">
-                <a href="#" className="social-icon" aria-label="Facebook">
-                  <i className="fab fa-facebook-f"></i>
+             <div className="social-icons">
+                <a href="#">
+                  <FaFacebookF />
                 </a>
-                <a href="#" className="social-icon" aria-label="Instagram">
-                  <i className="fab fa-instagram"></i>
+                <a href="#">
+                  <FaInstagram />
                 </a>
               </div>
             </div>
@@ -73,8 +73,9 @@ const Navbar = () => {
             aria-controls="navbarNav"
             aria-expanded="false"
             aria-label="Toggle navigation"
+            style={{ border:"1px solid white"}}
           >
-            <span className="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon" ></span>
           </button>
 
           {/* Collapsible Nav Items */}

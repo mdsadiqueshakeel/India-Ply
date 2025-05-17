@@ -28,13 +28,13 @@ function Gallery() {
     "/media/images/img3.webp",
     "/media/images/img4.webp",
     "/media/images/img5.webp",
-    "/media/images/img6.webp",
     "/media/images/img7.webp",
     "/media/images/img8.webp",
     "/media/images/img9.webp",
     "/media/images/img10.webp",
     "/media/images/img12.webp",
-    "/media/images/img1.webp"
+    "/media/images/img1.webp",
+    "/media/images/d1.webp"
   ];
 
   const openModal = (index) => {

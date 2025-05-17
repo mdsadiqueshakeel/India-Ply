@@ -4,12 +4,18 @@ import Images from './RenderImages';
 import "./Gallery.css"
 
 const imageList =[
-     "/media/images/img1.webp",
+    "/media/images/R2.png",
+    "/media/images/R1.png",
+    "/media/images/R3.png",
+    "/media/images/R4.png",
+    "/media/images/R5.png",
+    "/media/images/R7.png",
+    "/media/images/R8.png",
+    "/media/images/img1.webp",
     "/media/images/img2.webp",
     "/media/images/img3.webp",
     "/media/images/img4.webp",
     "/media/images/img5.webp",
-    "/media/images/img6.webp",
     "/media/images/img7.webp",
     "/media/images/img8.webp",
     "/media/images/img9.webp",
@@ -24,12 +30,13 @@ const imageList =[
     "/media/images/gl6.png",
     "/media/images/gl7.png",
     "/media/images/gl8.png",
+    "/media/images/d3.webp",
 ];
 
 function GalleryPage() {
     return (<>
         <Hero   title="GALLERY"
-  backgroundImage="https://images.unsplash.com/photo-1507643179773-3e975d7ac515?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"/>
+  backgroundImage="media/images/unsplash6.avif"/>
         <Images images={imageList} />
     </> );
 }

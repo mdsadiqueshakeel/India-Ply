@@ -44,6 +44,10 @@
 /* RightImage Section */
 
 /* Add decorative circle background behind images */
+.imgsize{
+  height: 70vh;
+}
+
 .enhanced-wrapper {
   position: relative;
 }
@@ -65,21 +69,22 @@
 .overlay-img {
   position: relative;
   z-index: 1;
+
 }
 .india-ply-section {
   padding-left: 2rem;
   background-color: #fffaf6;
   color: #2c2c2c;
 }
-.section-title {
-  font-size: 2.3rem;
-  font-weight: 700;
+.section-title h2 {
+  font-size: 1rem;
+  font-weight: 100;
   color: #a35a1e;
   text-transform: uppercase;
   margin-bottom: 1rem;
 }
 .lead {
-  font-size: 1.25rem;
+  font-size: 1rem;
   line-height: 1.8;
   margin-bottom: 1rem;
 }
@@ -135,9 +140,6 @@
   .india-ply-section {
     padding-left: 1rem;
     padding-right: 1rem;
-  }
-  .section-title {
-    font-size: 1.6rem;
   }
   .lead {
     font-size: 0.95rem;
