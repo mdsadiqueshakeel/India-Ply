@@ -1,5 +1,6 @@
 import React from "react";
 import OurBrandSection from "./BrandSection";
+import Hero from "./Hero";
 
 const sections = [
   {
@@ -125,6 +126,8 @@ const sections = [
 const OurBrandsPage = () => {
   return (
     <>
+      <Hero title="Our Brands"
+        backgroundImage="media/images/unsplash9.avif" />
       {sections.map((section, index) => (
         <OurBrandSection
           key={index}

@@ -14,7 +14,6 @@ const Footer = () => {
                   <div className="logo-text">
                     <div className="brand-name">India</div>
                     <div className="tagline">PLY</div>
-                    <div className="sub-text">Aber Tom Giot Papavol</div>
                   </div>
                 </div>
               </div>
